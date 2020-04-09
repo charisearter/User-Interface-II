@@ -39,13 +39,36 @@ h1, h2, .button {
 }
 
 /*Header*/
+h1 {
+    font-size: 150%;
+    font-weight: 900;
 
+}
+
+h2 {
+    font-size: 125%;
+}
+
+.button{
+    border: 1px solid grey;
+    font-size: 120%;
+
+}
 
 /*Gallery*/
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
 
-
-
-
-
+.gallery p {
+    border: 1px dotted grey;
+}
 
 /*Footer*/
+
+footer {
+    border: 2px dashed grey;
+}
