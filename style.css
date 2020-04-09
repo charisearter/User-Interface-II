@@ -64,6 +64,9 @@ h2 {
 }
 
 .gallery p {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     border: 1px dotted grey;
 }
 
