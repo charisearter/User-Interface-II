@@ -39,7 +39,7 @@ h1, h2, .button {
     letter-spacing: 2px;
 }
 
-a {
+a:link {
     color: white;
     text-decoration: none;
     font-size: 130%;
@@ -48,6 +48,30 @@ a {
     padding-left: 1%;
     padding-right: 2%;
 }
+
+a:hover{
+    text-transform: uppercase;
+    color: red;
+    font-weight: bolder;
+    background-color: white;
+
+}
+
+a:active{
+    background-color:white;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+a:visited {
+    text-transform: lowercase;
+    color: white;
+    background-color: black;
+
+}
+
+
 
 /*Header*/
 
@@ -111,14 +135,18 @@ h2 {
 
 footer {
     border: 2px dashed grey;
-    background-color: white;
+    background-color: black;
     color: red;
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-content: space-around;
+    padding: 1%;
 }
 
-footer img {
-    width: 25px;
-    height: 25px;
+
+footer .button {
+    background-color:white;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
 }
