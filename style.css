@@ -44,31 +44,23 @@ a:link {
     text-decoration: none;
     font-size: 130%;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 3%;
     padding-left: 1%;
     padding-right: 2%;
 }
 
 a:hover{
     text-transform: uppercase;
-    color: red;
     font-weight: bolder;
-    background-color: white;
-
+    background-color: crimson;
+    color:white;
+    text-decoration: overline;
 }
 
-a:active{
-    background-color:white;
-    color: black;
-    text-transform: uppercase;
-
-}
-
-a:visited {
+a:visited{
+    color:white;
     text-transform: lowercase;
-    color: white;
-    background-color: black;
-
+    text-decoration: overline;
 }
 
 
@@ -111,30 +103,43 @@ h2 {
 
 .middle .button {
     background-color:whitesmoke;
-    border: 1px solid black;
     color: black;
 }
 
 
-/*Gallery*/
+/*Gallery Home*/
 .gallery {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    height: 500px;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    padding: 2%;
+}
+
+.gallery img{
+    width: 20%;
+    height: 40%;
+}
+
+.gallery img:hover{
+    border-radius: 10%;
+    border: 5px dotted black;
 }
 
 .gallery p {
     display: flex;
+    width: 20%;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: space-evenly;
     border: 1px dotted grey;
 }
 
 /*Footer*/
 
 footer {
-    border: 2px dashed grey;
+
     background-color: black;
     color: red;
     display: flex;
@@ -150,3 +155,4 @@ footer .button {
     color: black;
     text-align: center;
 }
+
