@@ -29,18 +29,38 @@ time, mark, audio, video {
 /* General CSS */
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:wght@300&display=swap')
 
-p {
+body *{
     font-family: 'Roboto', sans-serif;
     
 }
 
 h1, h2, .button {
     font-family: 'Comic Neue', cursive;
+    letter-spacing: 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 2%;
 }
 
 /*Header*/
-h1 {
-    font-size: 150%;
+
+.top {
+    background-color: black;
+    line-height: 2;
+    letter-spacing: 1.7;
+
+
+}
+header h1 {
+    color:white;
+    font-size: 180%;
     font-weight: 900;
 
 }
@@ -49,11 +69,28 @@ h2 {
     font-size: 125%;
 }
 
-.button{
-    border: 1px solid grey;
-    font-size: 120%;
+
+/*Header info*/
+
+.middle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 3%;
 
 }
+
+#info {
+    margin: 8%;
+    font-size: 130%;
+}
+
+.middle .button {
+    background-color:whitesmoke;
+    border: 1px solid black;
+    color: black;
+}
+
 
 /*Gallery*/
 .gallery {
@@ -74,4 +111,14 @@ h2 {
 
 footer {
     border: 2px dashed grey;
+    background-color: white;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
 }
