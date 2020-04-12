@@ -72,13 +72,14 @@ div {
 }
 section {
     background-color: white;
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 h1, h2 {
     text-align: center;
     font-weight:900;
+    letter-spacing: 0.5rem;
 }
 
 #container {
@@ -88,7 +89,7 @@ h1, h2 {
     align-content: center;
     background-color: black;
     padding: 3%;
-    border: 10px solid goldenrod;
+    border: 0px 10px;
 }
 
 
@@ -102,3 +103,27 @@ header nav {
     padding: 1% 0;
 }
 
+/* Work */
+#work {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* Gallery */
+
+#art {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#art #gallery {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#art #gallery .rectangle {
+    width: 20%;
+    background-color: lightgreen;
+}
