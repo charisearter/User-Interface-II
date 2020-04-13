@@ -114,16 +114,29 @@ header nav {
 
 #art {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #art #gallery {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-content:space-evenly;
     width: 50%;
 }
 
 #art #gallery .rectangle {
-    width: 20%;
+    width: 10%;
     background-color: lightgreen;
+}
+
+#art #art-text {
+    width: 40%;    
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
 }
